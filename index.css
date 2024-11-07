@@ -3,9 +3,11 @@
   padding: 0;
 } 
 
+
 body{
   overflow-x: hidden;
 }
+
 #tp-cnter{
   height: 100%;
   width: 100%;
@@ -22,9 +24,7 @@ width: 100%;
 
 }
 .logo{
-    font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-size: xx-large;    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
 span{
     position: relative;
@@ -134,10 +134,7 @@ li{
         text-align: center;
         padding-top: 20px;
       }
-/* 
------------------------------- */
-
-
+/* Page 3rd  */
 
 .container{
   display: flex;
@@ -231,7 +228,8 @@ cursor: pointer;
 .boxes:hover .overlay {
 opacity: 1;
 }
-/* ------------------------------------- */
+
+/* page 4 */
 #Main-container{
   background-color:  #faf0e5;
   display: flex;
@@ -347,7 +345,7 @@ border-radius: 50%;
   background-color: #d8d7d7;
   
 }
-/* ------------------------------ */
+/* page 5 and 6 */
 .tcp-cntnt p,h1{
   text-align: center;
   margin: 4px;
