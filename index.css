@@ -17,11 +17,10 @@ body{
 .container{
 background-color:white;
 
-display:flex ;
-justify-content: space-between;
 align-items: center;
 height: 100px;
 width: 100%;
+display: flex;
 
 }
 .logo{
@@ -135,9 +134,10 @@ display: inline;
       }
 /* Page 3rd  */
 
-.container{
+.Container{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   
 }
 .boxes{
@@ -150,7 +150,7 @@ width: calc(25%-10%);
   
 } 
 
-.container .boxes{
+.Container .boxes{
   height: 450px;
 }
 img{
@@ -234,20 +234,13 @@ opacity: 1;
   display: flex;
   height:530px;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
   padding-left: 30px; 
-  padding-top: 40px;
   padding-bottom: 30px;
-  position: relative;
-  top: 950px;
-
-
+  padding-top: 40px;
 }
-
-
 .cafe-icn{
   padding-top:150px ;
-
 }
 
 .pic-cntnt{
@@ -269,7 +262,6 @@ opacity: 1;
   background-color: #B88E2F;
   width: 10px;
 bottom: 183px;
-
 left: 190px;
 padding: 13px;
 color: white;
@@ -288,11 +280,6 @@ border: 2px;
 border-radius: 50%;
 
 } 
-.pic-cntnt p{
-  top: 880px;
-  
-  
-}
 .button2{
   height: 60px;
   width: 180px;
@@ -310,7 +297,6 @@ border-radius: 50%;
   font-size: 40px;
   padding-left: 20px;
 }
-
 #cafe-ice1 img{
   width: 380px;
   height: 520px;
@@ -327,7 +313,6 @@ border-radius: 50%;
   position: relative;
   bottom: 441px;
   left: 400px; 
-  
 } 
  .loading-Dots{
   display: flex;
@@ -335,7 +320,6 @@ border-radius: 50%;
   margin-top: 470px;
   position: relative;
   right: 350px;
-  
 }
 .dot{
   width: 13px;
@@ -348,22 +332,17 @@ border-radius: 50%;
 .tcp-cntnt p,h1{
   text-align: center;
   margin: 4px;
-  
 } 
 .tcp-cntnt{
   height: 100%;
-  width: 1340px;
- position: relative;
- top: 980px;
+    width: 100%;
  text-align: center;
+ margin-top: 40px;
 }
 .tcp-cntnt1 {
   display: flex;
   gap: 5px;
   flex-flow: row wrap;
-  
- 
- 
 }
 .cntnt1 img{
 height: 380px;
@@ -372,11 +351,8 @@ width: 100px;
 .cntnt2 img{
   padding-top: 99px;
   width: 440px;
-  height: 280px;
-  
-  
+  height: 280px; 
 }
-
 .cntnt3{
   padding-top: 200px;
   top: 200px;
@@ -384,7 +360,6 @@ width: 100px;
   left: 130px;
 }
 .cntnt4{
-
  padding-top: 130px;
  padding-left: 207px;
 }
@@ -406,12 +381,10 @@ margin-top: -180px;
 }
 .main-content{
   display: flex;
-
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 #line{
-  margin-top: 1000px;
+  margin-top: 20px;
   color: #dfd7d7;
 }
 .main-content div{
@@ -431,7 +404,6 @@ margin-top: -180px;
 .Furino3 h4{
   margin: 50px; 
   position: relative;
- 
 }
 .Furino4 h4{
   margin: 50px; 
