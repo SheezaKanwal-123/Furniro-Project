@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniro project</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  
 </head>
 <body>
-    <div>
+    <div id="fuin-container">
         <nav>
         <div class="container">
            <div class="logo">
@@ -17,20 +18,28 @@
                <span>Furniro</span>
            </div>
            <div class="list">
-            
-               
                <ul>
                    <li><a href="#Home">Home</a></li>
                    <li><a href="#shop">Shop</a></li>
                    <li><a href="#About ">About</a></li>
                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                   <div class="dropdown">
+
+                    <button class="dropbtn" style="background-color: white; font-size: 30px; ">....</button>
+                    <div class="dropdown-content">
+                      <a href="#Home">Home</a>
+                      <a href="#Shop">Shop</a>
+                      <a href="#About">About</a>
+                      <a href="#Contact">Contact</a>
+                  </div>
+                </div>
             </div>
             <div class="icons">
               <i class="fa-solid fa-user-plus"></i>
               <i class="fa-solid fa-magnifying-glass"></i>
               <i class="fa-regular fa-heart"></i>
               <i class="fa-solid fa-cart-shopping"></i>
+
           </div>
       </div>
           
@@ -64,7 +73,7 @@
             </div>
         </div>
         <div >
-            <h1 id="page2" style="margin-top: 20px; text-align: center; font-size: 40px;">Our Products</h1>
+            <h1 id="page2" >Our Products</h1>
         <div class="Container">
           <div class="boxes">
             <img src="Images.png" alt="loading" />
@@ -231,7 +240,7 @@
                    <button class="button2">Explore More</button>
             
             </div>
-           <div id="cafe-ice1">
+           <div id="cafe-ice1" >
               <img src="images11 (1).png" alt="loading">
               <div class="pic-cntnt">
                 <p>01----Bedroom</p>

@@ -1,0 +1,240 @@
+@media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #fuin-container {
+    overflow: hidden;
+  }
+  .icons {
+    display: none;
+  }
+  #fuin-container {
+    overflow: hidden;
+  }
+  .list li {
+    display: none;
+  }
+  .dropbtn {
+    display: inline-block;
+    position: relative;
+    bottom: 16px;
+    color: rgb(20, 17, 17);
+    padding: 1px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .content {
+    height: 4%;
+    width: 62%;
+    top: 10px;
+    left: 5%;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  main {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: auto;
+    height: 30%;
+    background-image: url(img1.png);
+  }
+  .boxes h2,
+  h3,
+  p {
+    padding-left: 12px;
+  }
+  .content h1 {
+    padding-top: 4px;
+    font-size: 24px;
+  }
+
+  button {
+    margin-top: 10px;
+    width: 40%;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .fex-img {
+    padding-left: 16px;
+  }
+  .fex-img img {
+    height: 68%;
+    width: 88%;
+    margin: 6px;
+    padding-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #page2 {
+    margin-top: 2px;
+    font-size: 33px;
+  }
+  .boxes {
+    margin-top: 20px;
+  }
+  img {
+    width: 99%;
+  }
+  .boxes .tage {
+    left: 220px;
+  }
+  .boxes {
+    margin: 16px;
+  }
+  .RP {
+    left: 54%;
+    bottom: 7%;
+  }
+
+  .button1 {
+    height: 30%;
+    width: 40%;
+    left: 20%;
+    padding: 5px;
+    margin-top: 2px;
+  }
+  #cafe-iceb {
+    padding-right: 1%;
+  }
+
+  .cafe-icn {
+    padding-top: 3%;
+  }
+  #Main-container {
+    background-color: #faf0e5;
+    display: block;
+    flex-wrap: wrap;
+
+    height: 30%;
+    width: auto;
+
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+  #cafe-iceb {
+    height: 30%;
+    width: auto;
+  }
+  #cafe-iceb h1 {
+    padding-left: 2px;
+  }
+  .button2 {
+    height: 22%;
+    width: 60%;
+    padding: 20px;
+    margin: 5px;
+  }
+
+  #cafe-ice1 img {
+    width: 89%;
+    height: 5%;
+  }
+  #cafe-ice2 img {
+    width: 90%;
+    height: 85%;
+  }
+  #cafe-ice3 img {
+    height: 420px;
+    width: 120px;
+    display: contents;
+  }
+  .loading-Dots {
+    display: none;
+  }
+  .tcp-cntnt1 {
+    display: contents;
+    gap: 5px;
+    flex-flow: column;
+  }
+
+  .tcp-cntnt1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tcp-cntnt1 div {
+    width: 100%;
+    max-height: 50vh;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  .tcp-cntnt1 img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .cntnt1 img,
+  .cntnt2 img,
+  .cntnt3 img,
+  .cntnt4 img,
+  .cntnt5 img,
+  .cntnt6 img,
+  .cntnt7 img,
+  .cntnt8 img,
+  .cntnt9 img {
+    padding: 0;
+    margin: 0;
+  }
+
+  .cntnt3,
+  .cntnt4,
+  .cntnt5,
+  .cntnt6,
+  .cntnt7,
+  .cntnt8,
+  .cntnt9 {
+    padding: 0;
+    margin: 0;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .main-content div {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .Furino1 h2 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+
+  .Furino2 h4,
+  .Furino3 h4,
+  .Furino4 h4 {
+    margin: 20px 0;
+  }
+
+  .Furino4 h5 {
+    font-size: 14px;
+    margin: 10px 0;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: black;
+  }
+
+  .main-content + hr {
+    margin: 20px 0;
+  }
+
+  .main-content + hr + p {
+    margin-left: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+}
